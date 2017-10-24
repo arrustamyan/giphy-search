@@ -1,0 +1,24 @@
+{
+    "plugins": [
+        [
+            "transform-react-jsx",
+            {
+                "pragma": "h"
+            }
+        ]
+    ],
+    "presets": [
+        "react",
+        [
+            "env",
+            {
+                "targets": {
+                    "ie": "9",
+                    "browsers": [
+                        "ie >= 8"
+                    ]
+                }
+            }
+        ]
+    ]
+}

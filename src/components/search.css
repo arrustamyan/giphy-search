@@ -1,0 +1,29 @@
+.search-form {
+    margin: 0;
+    padding: 10px;
+    display: block;
+}
+.search-form__input {
+    display: block;
+    float: left;
+    margin: 0 2% 0 0;
+    padding: 10px;
+    width: 70%;
+    height: 50px;
+    box-sizing: border-box;
+    border: 2px solid #DDD;
+    border-radius: 5px;
+    font-size: 1.9rem;
+}
+.search-form__button {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 28%;
+    height: 50px;
+    background-color: #36C291;
+    border: none;
+    border-bottom: 3px solid #116D4D;
+    border-radius: 5px;
+    font-size: 1.9rem;
+}
